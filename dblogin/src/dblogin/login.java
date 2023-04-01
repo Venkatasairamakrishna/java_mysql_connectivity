@@ -92,7 +92,7 @@ public class login {
 	                ResultSet rs=ps.executeQuery();
 	                rs.next();
 	                lb1.setText("Name  : "+rs.getString(1));
-	                lb2.setText("Marks : "+rs.getInt(2));
+	                lb2.setText("Marks :"+rs.getInt(2));
  
 				} catch (SQLException e1) {
 					// TODO Auto-generated catch block
